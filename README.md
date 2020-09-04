@@ -23,9 +23,26 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain how you took advantage of Java's Object Oriented approach to solve the sprint challenge.
+
+    We used an instance of the coin class to create our Coin object/table.
+
 2. Explain the three steps needed to run a Java application (using the JDK) including what each step does and how those step correlate to running a JavaScript application.
+
+    Run at src folder:
+    javac <filename>/*.java: convert to bytecode
+    jar cvfe <filename>.jar <filename>.Main basetypes/*.class: archive all class files into single jar file
+    java -jar basetypes.jar execute code with new jar file just created
+    
 3. Explain how Java being a strongly typed language affected you solution.
+
+    In order to produce the correct ammount for the total of the piggy bank, the coinValue needed to be double rather
+     than long
+
 4. Can you explain the differences between Abstract Classes and Interfaces including how they are used in your application?
+
+    Abstract classes can have both abstract and non-abstract methods but interfaces can only have abstract methods
+    .  Methods within abstract classes can be extended to other related classes but methods declared within an
+     interface can only be implemented by the class that implements it.
 
 ## Instructions
 
